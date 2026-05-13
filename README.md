@@ -6,9 +6,7 @@
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
 [![Tests](https://img.shields.io/badge/tests-194%20passed-brightgreen.svg)](#validation)
 [![Code style: ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
-<!-- BEGIN ZENODO_BADGE — replace XXXXXXX with the real concept DOI after the first v1.0.1 release is archived -->
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
-<!-- END ZENODO_BADGE -->
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20172241.svg)](https://doi.org/10.5281/zenodo.20172241)
 
 **Author:** Felipe Rocha — Independent Researcher
 
@@ -228,7 +226,7 @@ If this software contributes to your work, please cite both the software (this r
 
 **Software (archived release):**
 
-> Rocha, F. (2026). *Integrity Code Series — Week 10 — NNpHSCC Full-Physics Simulation* (Version 1.0.1) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.XXXXXXX
+> Rocha, F. (2026). *Integrity Code Series — Week 10 — NNpHSCC Full-Physics Simulation* (Version 1.0.1) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.20172241
 
 **BibTeX:**
 
@@ -240,17 +238,17 @@ If this software contributes to your work, please cite both the software (this r
   year         = 2026,
   publisher    = {Zenodo},
   version      = {v1.0.1},
-  doi          = {10.5281/zenodo.XXXXXXX},
-  url          = {https://doi.org/10.5281/zenodo.XXXXXXX}
+  doi          = {10.5281/zenodo.20172241},
+  url          = {https://doi.org/10.5281/zenodo.20172241}
 }
 ```
 
 The two DOIs Zenodo provides are:
 
-| DOI                                  | What it points to                                                  |
-|--------------------------------------|--------------------------------------------------------------------|
-| `10.5281/zenodo.XXXXXXX` (concept)   | Always resolves to the latest version — use this for citation.     |
-| `10.5281/zenodo.YYYYYYY` (version)   | Pinned to v1.0.1 specifically — use when reproducibility matters.  |
+| DOI                                | What it points to                                                  |
+|------------------------------------|--------------------------------------------------------------------|
+| [`10.5281/zenodo.20172241`](https://doi.org/10.5281/zenodo.20172241) (concept) | Always resolves to the latest version — use this for citation in papers, CV, talks. |
+| [`10.5281/zenodo.20172242`](https://doi.org/10.5281/zenodo.20172242) (version) | Pinned to v1.0.1 specifically — use when reproducibility matters. |
 
 A machine-readable citation file is also available in [`CITATION.cff`](CITATION.cff) — GitHub will display a "Cite this repository" widget at the top right of the repo page that exports BibTeX / APA / RIS automatically.
 
