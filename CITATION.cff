@@ -1,29 +1,57 @@
 cff-version: 1.2.0
-title: "Integrity Code Series - Week 10 - NNpHSCC Full-Physics"
-message: "If you use this software, please cite it using these metadata."
+title: "Integrity Code Series - Week 10 - NNpHSCC Full-Physics Simulation"
+message: "If you use this software, please cite it using the metadata below."
 type: software
 authors:
   - family-names: Rocha
     given-names: Felipe
+    affiliation: "Independent Researcher"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"  # TODO: replace once ORCID is provisioned
 repository-code: "https://github.com/felipearocha/integrity-code-series-week-10_nnph_scc"
+url: "https://github.com/felipearocha/integrity-code-series-week-10_nnph_scc"
 abstract: >
   Full-physics simulation of Near-Neutral pH Stress Corrosion Cracking (NNpHSCC) in
-  gas transmission pipelines. Implements 15 coupled mechanisms (Chen-Sutherby-Xing
-  crack growth, Newman-Raju 3D geometry, BS 7910 residual stress and coalescence,
-  Turnbull crack-tip chemistry, Sun 2021 model uncertainty, Bayesian inspection
-  update, API 579-1 FAD, B31.8/B31.12 MAOP, H2 blending) with audit-chained outputs.
+  gas transmission pipelines. Implements 15 coupled mechanisms in a single audit-chained
+  pipeline: Laplace soil electrochemistry with Butler-Volmer boundary conditions,
+  Oriani-Fick hydrogen diffusion with trap-corrected effective diffusivity, the
+  Chen-Sutherby-Xing combined-parameter crack-growth law with frequency saturation,
+  Newman-Raju 3D semi-elliptical crack geometry, BS 7910:2019 Annex Q residual stress
+  and Cl. 7.3 coalescence, Turnbull (1993) crack-tip pH model, non-monotonic cathodic
+  protection potential, microstructure zones (base, HAZ, vintage X52 ERW), Zhao (2017)
+  dormancy criterion, Latin Hypercube Monte Carlo with POD-corrected initial flaw
+  depth, explicit Sun-Zhou-Kang (2021) model structural uncertainty (COV = 61.2%) as
+  a sampled epistemic variable, Straub (2004) Bayesian particle-filter posterior
+  update from re-inspection events, API 579-1 Level 2 FAD, ASME B31.8 / B31.12 MAOP
+  comparison, Cui (2024) H2-blending K_IH degradation, and a SHA-256 hash-chained
+  audit log of all runs.
 keywords:
   - NNpHSCC
+  - near-neutral pH stress corrosion cracking
   - pipeline integrity
-  - stress corrosion cracking
   - fracture mechanics
+  - hydrogen embrittlement
+  - cathodic protection
+  - Chen-Sutherby-Xing
+  - Newman-Raju
+  - BS 7910
   - API 571
   - API 579
   - API 581
-  - BS 7910
   - risk-based inspection
-  - cathodic protection
-  - hydrogen embrittlement
+  - Bayesian inference
+  - particle filter
+  - Monte Carlo
+  - model uncertainty
+  - PHMSA 192.611
+  - hydrogen blending
 license: MIT
-version: "1.0.0"
-date-released: "2026-05-12"
+version: "1.0.1"
+date-released: "2026-05-13"
+identifiers:
+  - type: url
+    value: "https://github.com/felipearocha/integrity-code-series-week-10_nnph_scc/releases/tag/v1.0.1"
+    description: "GitHub release tag v1.0.1"
+  # After first Zenodo release, replace the doi block below with the real value:
+  # - type: doi
+  #   value: "10.5281/zenodo.XXXXXXX"
+  #   description: "Concept DOI (always resolves to latest version)"

@@ -5,6 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.1] - 2026-05-13
+
+### Added
+- `.zenodo.json` with full Zenodo deposit metadata (creators, affiliation, keywords, references, related identifiers) so the archived release renders a professional citation page.
+- DOI badge placeholder and `## How to Cite` section in `README.md` (citation block, BibTeX snippet, concept-vs-version DOI guidance).
+- `identifiers:` section, `affiliation: "Independent Researcher"` and ORCID placeholder in `CITATION.cff`; abstract expanded to a full self-contained summary of the 15 coupled mechanisms.
+
+### Changed
+- Package version bumped from `1.0.0` to `1.0.1`.
+- Citation file `CITATION.cff` and project metadata aligned with the Zenodo deposit so all three sources (GitHub UI widget, Zenodo deposit page, PyPI long description) agree.
+
+### Why this release
+- v1.0.0 predated activation of the Zenodo - GitHub integration, so it was never archived to Zenodo. v1.0.1 is the first release that will trigger Zenodo to mint a concept DOI and a version DOI, establishing a permanent citable record of this work.
+
 ## [1.0.0] - 2026-05-12
 
 ### Added
@@ -32,4 +46,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Tests
 - 194 / 194 passing on a clean Python 3.11+ extract.
 
+[1.0.1]: https://github.com/felipearocha/integrity-code-series-week-10_nnph_scc/releases/tag/v1.0.1
 [1.0.0]: https://github.com/felipearocha/integrity-code-series-week-10_nnph_scc/releases/tag/v1.0.0
